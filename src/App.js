@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/App.css';
+import './App.css';
 import { Link } from 'react-router';
 
 class App extends Component {
@@ -7,7 +7,6 @@ class App extends Component {
         return (
             <div className="container">
 
-                <h1>Simple SPA</h1>
                 <ul className="header">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/Components">Projects</Link></li>
